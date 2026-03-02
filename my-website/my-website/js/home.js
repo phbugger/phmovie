@@ -1,4 +1,4 @@
-const API_KEY = 'a1e72fd93ed59f56e6332813b9f8dcae';
+const API_KEY = 'ce239a37994d2c752b76a3b3c38d5563';
     const BASE_URL = 'https://api.themoviedb.org/3';
     const IMG_URL = 'https://image.tmdb.org/t/p/original';
     let currentItem;
@@ -119,5 +119,6 @@ const API_KEY = 'a1e72fd93ed59f56e6332813b9f8dcae';
       displayList(tvShows, 'tvshows-list');
       displayList(anime, 'anime-list');
     }
+
 
     init();
